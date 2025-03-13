@@ -1,0 +1,100 @@
+class Animal {
+  String? _nome;
+  String? _sexo;
+  String? _raca;
+
+  String get nome => _nome!;
+
+  set nome(String value) {
+    _nome = value;
+  }
+
+  String get sexo => _sexo!;
+
+  set sexo(String value) {
+    _sexo = value;
+  }
+
+  String get raca => _raca!;
+
+  set raca(String value) {
+    _raca = value;
+  }
+
+  void emitirSom() {
+    print('blablabla');
+  }
+  void dormir() {
+    print('dormindo');
+  }
+  void correr() {
+    print('correndo');
+  }
+  void caminhar() {
+    print('caminhando');
+  }
+}
+
+class Lobo extends Animal {
+  @override
+  void emitirSom() {
+    print('O Lobo está uivando');
+  void dormir(){
+    print('O Lobo está dormindo');
+  }
+  void correr() {
+    print('O Lobo está correndo');
+  }
+  void caminhar(){
+    print('O Lobo está caminhando');
+    }
+  }
+}
+
+class Leao extends Animal {
+  @override
+  void emitirSom() {
+    print('O Leão está uivando');
+    void dormir(){
+      print('O Leão está dormindo');
+    }
+    void correr() {
+      print('O Leão está correndo');
+    }
+    void caminhar(){
+      print('O Leão está caminhando');
+    }
+  }
+}
+
+class Cachorro extends Animal {
+  @override
+  void emitirSom() {
+    print('O Cachorro está uivando');
+    void dormir(){
+      print('O Cachorro está dormindo');
+    }
+    void correr() {
+      print('O Cachorro está correndo');
+    }
+    void caminhar(){
+      print('O Cachorro está caminhando');
+    }
+  }
+}
+
+class Gato extends Animal {
+  @override
+  void emitirSom() {
+    print('O Gato está uivando');
+    void dormir(){
+      print('O Lobo está dormindo');
+    }
+    void correr() {
+      print('O Gato está correndo');
+    }
+    void caminhar(){
+      print('O Gato está caminhando');
+    }
+  }
+}
