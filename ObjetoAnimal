@@ -1,0 +1,62 @@
+import 'Animal.dart';
+
+void main() {
+
+  print("========== Lobo ==========");
+
+  Lobo lobo = new Lobo();
+  lobo.nome = "Husky";
+  lobo.sexo = "Masculino";
+  lobo.raca = "Siberiano";
+
+  Leao leao = new Leao();
+  leao.nome = "Mufasa";
+  leao.sexo = "Masculino";
+  leao.raca = "Leão-Africano";
+
+  Cachorro cachorro = new Cachorro();
+  cachorro.nome = "Paloma";
+  cachorro.sexo = "Fêmea";
+  cachorro.raca = "Labrador";
+
+  Gato gato = new Gato();
+  gato.nome = "Jorge";
+  gato.sexo = "Masculino";
+  gato.raca = "Siâmes";
+
+  print("===== LOBO =====");
+  print("Nome: " + lobo.nome);
+  print("Sexo: " + lobo.sexo);
+  print("Raça: " + lobo.raca);
+  lobo.emitirSom();
+  lobo.dormir();
+  lobo.correr();
+  lobo.caminhar();
+
+  print("===== LEÃO =====");
+  print("Nome: " + leao.nome);
+  print("Sexo: " + leao.sexo);
+  print("Raça: " + leao.raca);
+  leao.emitirSom();
+  leao.dormir();
+  leao.correr();
+  leao.caminhar();
+
+  print("===== CACHORRO =====");
+  print("Nome: " + cachorro.nome);
+  print("Sexo: " + cachorro.sexo);
+  print("Raça: " + cachorro.raca);
+  cachorro.emitirSom();
+  cachorro.dormir();
+  cachorro.correr();
+  cachorro.caminhar();
+
+  print("===== GATO =====");
+  print("Nome: " + gato.nome);
+  print("Sexo: " + gato.sexo);
+  print("Raça: " + gato.raca);
+  gato.emitirSom();
+  gato.dormir();
+  gato.correr();
+  gato.caminhar();
+}
